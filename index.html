@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/labirintomazerunner.jpg" alt="">
+            <p>Você acorda desorientado em uma clareira rodeado de pessoas te observando, a sua direita tem uma enorme parede com um entrada misteriosa, as pessoas ao seu redor avisam que tem um vasto labirinto atras da parede. Cabe a você decidir o seu destino.</p>
+            <button class="btn-proximo" data-proximo="1">Correr para o labirinto</button>
+            <button class="btn-proximo" data-proximo="2">Conversar com as pessoas</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Voce se encontra na frente de um grande labirinto.</p>
+            <button class="btn-proximo" data-proximo="3">Entrar no labirinto</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para a clareira</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>ao conversar com os moradores, voce descobre mais sobre o labirinto e sobre o perigos que tem nele, mas mesmo assim voce fica intrigado </p>
+            <button class="btn-proximo" data-proximo="5">Investigar o labirinto</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a clareira</button>
+        </div>
+        <div class="passo" id="passo-3">
+           <p>V oce continua a andar pelo labirinto escuro sem saber ao certo a onde chegara.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir em frente</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/clareira.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que o labirinto é muito perigoso e decide ficar morando na clareira.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Depois de muito tempo pensando voce decide entrar no labirinto.</p>
+            <button class="btn-proximo" data-proximo="7">entrar no labirinto</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as clareira, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar para a clareira</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Depois de um tempo de caminhada voce se depara com uma bifurcação no caminho.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta a clareira, voce finalmente decide entar no labirnto!</p>
+            <button class="btn-proximo" data-proximo="7">entrar no labirinto</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Esse caminho te levou direto a saida .</p>
+            <button class="btn-proximo" data-proximo="11">sair do labirinto</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>o caminho a direita não levou a lugar nenhum voce so perdeu o seu tempo.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro lado</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/73152.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Voce sai do labirinto e descobre que o mundo não é mais o mesmo, voce tentar sobreviver por um tempo mas acaba morrendo que triste.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando à esquerda, voce encontra a saida</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o mundo</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
